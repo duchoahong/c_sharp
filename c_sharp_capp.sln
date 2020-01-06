@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c_sharp_lab1_fibo", "c_sharp_lab1_fibo\c_sharp_lab1_fibo.csproj", "{B94E7B0E-48D0-4DD5-B67E-F35189DBFCFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c_sharp_lab2", "c_sharp_lab2\c_sharp_lab2.csproj", "{FD81753A-0855-4231-AAB9-13D878602A18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B94E7B0E-48D0-4DD5-B67E-F35189DBFCFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94E7B0E-48D0-4DD5-B67E-F35189DBFCFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B94E7B0E-48D0-4DD5-B67E-F35189DBFCFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94E7B0E-48D0-4DD5-B67E-F35189DBFCFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD81753A-0855-4231-AAB9-13D878602A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD81753A-0855-4231-AAB9-13D878602A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD81753A-0855-4231-AAB9-13D878602A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD81753A-0855-4231-AAB9-13D878602A18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
