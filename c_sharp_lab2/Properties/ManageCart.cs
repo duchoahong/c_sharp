@@ -85,26 +85,24 @@ namespace c_sharp_lab2.Properties
             }
         }
 
-        public float shipCity()
+        public double shipCity()
         {
             String t1 = "hn";
             String t2 = "hcm";
-            if (c.City.Equals(t1) || c.City.Equals(t2))
+            if (this.c.City.Equals(t1) || this.c.City.Equals(t2))
             {
-                return 1/100;
+                return 0.01;
             }
 
-            return 2 / 100;
-
-
+            return 0.02;
         }
 
-        public float shipCountry()
+        public double shipCountry()
         {
             String isVn = "vn";
-            if (!c.Country.Equals(isVn))
+            if (!this.c.Country.Equals(isVn))
             {
-                return 5 / 100;
+                return 0.05;
             }
 
             return 0;
@@ -117,12 +115,14 @@ namespace c_sharp_lab2.Properties
             {
                 tmpTongTien += p.Price;
             }
-            return c.TongTien = tmpTongTien + tmpTongTien * 20/100;
+            return c.TongTien = tmpTongTien + tmpTongTien * this.shipCity() + tmpTongTien * this.shipCountry();
         }
         
         public void grandTotal()
         {
             this.getProductWithPriceInCart();
+            Console.WriteLine("phi ship city: "+this.shipCity()+" %");
+            Console.WriteLine("phi ship country: "+this.shipCountry()+" %");
             Console.WriteLine("tong tien san pham la "+this.countGrandTotal());
             Console.WriteLine("===========================");
         }

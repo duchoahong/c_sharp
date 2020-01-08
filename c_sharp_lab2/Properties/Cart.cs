@@ -11,7 +11,6 @@ namespace c_sharp_lab2.Properties
         private List<Product> pList = new List<Product>();
         private String city;
         private String country;
-
         public Cart()
         {
             
